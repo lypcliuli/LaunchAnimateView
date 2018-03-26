@@ -1,11 +1,5 @@
 use_frameworks!
 
 target 'LaunchAnimateView_Example' do
-  pod 'LaunchAnimateView', :path => '../'
-
-  target 'LaunchAnimateView_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'LaunchAnimateView', '~> 0.1.0'
 end
